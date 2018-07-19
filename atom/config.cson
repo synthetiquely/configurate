@@ -1,0 +1,61 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-code-format": {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#ec407a"
+      accentColor: "#46ffc1"
+      genAccent: true
+      paintCursor: true
+      predefinedColor: "Pink"
+    fonts: {}
+    tabs: {}
+    ui: {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "linter"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "gloom"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontFamily: "Operator Mono"
+    fontSize: 20
+    invisibles: {}
+    showInvisibles: true
+  "exception-reporting":
+    userId: "6c64270d-a81d-4ccd-a132-388d30604bba"
+  "file-icons": {}
+  "language-babel":
+    emmetCSSAutocomplete: true
+  "linter-stylelint":
+    disableWhenNoConfig: false
+    useStandard: true
+  "linter-ui-default":
+    showPanel: true
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      theme: "one-dark"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierOptions:
+      arrowParens: "always"
+      printWidth: 120
+      singleQuote: true
+    useEslint: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".js.source":
+  editor:
+    showIndentGuide: false
+".python.source":
+  editor:
+    autoIndentOnPaste: false

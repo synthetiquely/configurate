@@ -1,0 +1,31 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "useBuiltIns": true,
+        "targets": {
+          "browsers": [">0.25%", "not ie 11", "not op_mini all"],
+          "node": "current"
+        },
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    ["emotion", { "hoist": true }],
+    "react-hot-loader/babel",
+    "transform-react-remove-prop-types",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "syntax-dynamic-import",
+    [
+      "transform-runtime",
+      {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ]
+  ]
+}
